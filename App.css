@@ -1,0 +1,24 @@
+.voice-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.end-btn {
+  border: none;
+  background: #dc2626;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.end-btn:hover {
+  background: #b91c1c;
+}
+
+.end-btn:active {
+  transform: scale(0.98);
+}
